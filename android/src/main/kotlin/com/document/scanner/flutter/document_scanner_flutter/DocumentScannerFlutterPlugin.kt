@@ -97,7 +97,6 @@ class DocumentScannerFlutterPlugin : FlutterPlugin, MethodCallHandler, ActivityA
         ScanConstants.SCAN_ROTATE_LEFT_TEXT to "ANDROID_ROTATE_LEFT_LABEL",
         ScanConstants.SCAN_ROTATE_RIGHT_TEXT to "ANDROID_ROTATE_RIGHT_LABEL",
         ScanConstants.SCAN_ORG_TEXT to "ANDROID_ORIGINAL_LABEL",
-        ScanConstants.SCAN_BNW_TEXT to "ANDROID_BMW_LABEL",
         ScanConstants.SCAN_SCANNING_MESSAGE to "ANDROID_SCANNING_MESSAGE",
         ScanConstants.SCAN_LOADING_MESSAGE to "ANDROID_LOADING_MESSAGE",
         ScanConstants.SCAN_APPLYING_FILTER_MESSAGE to "ANDROID_APPLYING_FILTER_MESSAGE",
