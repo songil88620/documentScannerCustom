@@ -197,9 +197,7 @@ class _PdfGeneratotGalleryState extends State<PdfGeneratotGallery> {
               ], borderRadius: BorderRadius.circular(25)),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  if (files.isNotEmpty)
-                     
+                children: [  
                   Expanded(
                       child: _mainControl(context,
                           color:
