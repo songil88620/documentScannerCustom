@@ -199,18 +199,7 @@ class _PdfGeneratotGalleryState extends State<PdfGeneratotGallery> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   if (files.isNotEmpty)
-                    Expanded(
-                        child: _mainControl(context,
-                            color: Colors.blue,
-                            icon: Icons.check,
-                            title: widget.labelsConfig[ScannerLabelsConfig
-                                    .PDF_GALLERY_DONE_LABEL] ??
-                                "Done",
-                            textColor: Colors.white,
-                            onTap: onDone,
-                            radius: BorderRadius.only(
-                                topLeft: Radius.circular(25),
-                                bottomLeft: Radius.circular(25)))),
+                     
                   Expanded(
                       child: _mainControl(context,
                           color:
